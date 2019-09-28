@@ -1,5 +1,7 @@
 # SpaceX Demo Project
 
+[Click to download demo video](https://raw.githubusercontent.com/Edward-Inaction/SpaceXDemo/master/art/demo.webm)
+
 ## Design
 
 The app is built with Kotlin base on MVVM and Clean architecture.
