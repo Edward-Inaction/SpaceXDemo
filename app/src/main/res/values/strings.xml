@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">SpaceXDemo</string>
+
+    <!-- launches list -->
+    <string name="launches">Launches</string>
+    <string name="launch_success">SUCCESS</string>
+    <string name="launch_failure">FAILURE</string>
+    <string name="launch_upcoming">UPCOMING</string>
+
+    <string name="sort_by_year_asc">Year ↑</string>
+    <string name="sort_by_year_desc">Year ↓</string>
+    <string name="sort_by_name">Name</string>
+
+    <string name="filter_all">All</string>
+    <string name="filter_success">Success</string>
+    <string name="filter_failure">Failure</string>
+    <string name="filter_upcoming">Upcoming</string>
+
+    <!-- launch detail -->
+    <string name="detail_section_status">Status</string>
+    <string name="detail_section_info">Info</string>
+    <string name="detail_section_rocket">Rocket</string>
+    <string name="detail_launch_date">Launch Date</string>
+    <string name="detail_upcoming">Upcoming</string>
+    <string name="detail_tentative">Tentative</string>
+    <string name="detail_rocket">Rocket</string>
+    <string name="detail_launch_site">Launch Site</string>
+    <string name="detail_launch_result">Result</string>
+    <string name="detail_failure_reason">Failure Reason</string>
+    <string name="detail_detail">Detail</string>
+    <string name="detail_rocket_name">Rocket Name</string>
+    <string name="detail_rocket_Type">Rocket Type</string>
+    <string name="detail_go_wikipedia">View on Wikipedia</string>
+
+    <!-- rocket -->
+    <string name="rocket_active">Active</string>
+    <string name="rocket_active_yes">Yes</string>
+    <string name="rocket_active_no">No</string>
+    <string name="rocket_stages">Stages</string>
+    <string name="rocket_boosters">Boosters</string>
+    <string name="rocket_cost_per_launch">Cost per launch</string>
+    <string name="rocket_success_rate">Success rate</string>
+    <string name="rocket_first_flight_date">First flight date</string>
+    <string name="rocket_country">Country</string>
+    <string name="rocket_company">Company</string>
+    <string name="rocket_engine">Engine</string>
+    <string name="rocket_description">Description</string>
+    <string name="rocket_success_rate_number">%d%%</string>
+    <string name="rocket_cost_number">%s$</string>
+
+    <!-- alert -->
+    <string name="fetch_rocket_fail">Load rocket data error, try again?</string>
+    <string name="option_try_again">Try again</string>
+    <string name="option_cancel">Cancel</string>
+
+    <!-- error -->
+    <string name="error_general">Something wrong, please try again later.</string>
+    <string name="error_refresh">Refresh failed, please try again later.</string>
+    <string name="error_no_browser">Cannot open url, please install a browser app first.</string>
+</resources>

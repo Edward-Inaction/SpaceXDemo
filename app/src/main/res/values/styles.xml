@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Style -->
+    <style name="Widget.MaterialComponents.Button.Option">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.AppCompat.TextView.DetailSection">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.DetailSection</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="Widget.AppCompat.TextView.DetailTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.DetailTitle</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">@id/titleGuideline</item>
+    </style>
+
+    <style name="Widget.AppCompat.TextView.DetailText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.DetailText</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constrainedWidth">true</item>
+        <item name="layout_constraintHorizontal_bias">0</item>
+        <item name="layout_constraintStart_toEndOf">@id/titleGuideline</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <!-- Text Appearance -->
+    <style name="TextAppearance.AppCompat.Small.Success">
+        <item name="android:textColor">@color/success</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Small.Failure">
+        <item name="android:textColor">@color/failure</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Small.Upcoming">
+        <item name="android:textColor">@color/upcoming</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.DetailSection">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.DetailTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/detail_title</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.DetailText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+</resources>
